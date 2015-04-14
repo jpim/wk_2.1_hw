@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   get("/basics/7", { :controller => "basics", :action => "combining_1"})
   get("/basics/8", { :controller => "basics", :action => "combining_2"})
   get("/basics/9", { :controller => "basics", :action => "combining_3"})
-
+  get("/combining/1", { :controller => "basics", :action => "combining_1"})
   get("/hashes/1", { :controller => "hashes", :action => "basics_1"})
   get("/hashes/2", { :controller => "hashes", :action => "basics_2"})
   get("/hashes/3", { :controller => "hashes", :action => "basics_3"})
